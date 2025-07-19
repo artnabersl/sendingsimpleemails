@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 7-Figure Email Secret</title>
+    <style>
+        body {
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+            color: white;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 580px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+        .sales-card {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.1);
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .header {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            padding: 35px;
+            text-align: center;
+            position: relative;
+        }
+        .header:after {
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            right: 0;
+            height: 40px;
+            background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" fill="rgba(255,255,255,0.05)" opacity=".25"/></svg>');
+            background-size: cover;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: white;
+            font-size: 24px;
+            margin: 30px 0 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .content {
+            padding: 40px;
+        }
+        .benefit-box {
+            background: rgba(255,255,255,0.1);
+            border-left: 4px solid #f1c40f;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 0 8px 8px 0;
+        }
+        .benefit-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #f1c40f;
+        }
+        .benefit-desc {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 16px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            background: rgba(255,255,255,0.9);
+            box-sizing: border-box;
+        }
+        .submit-btn {
+            background: linear-gradient(135deg, #f1c40f 0%, #f39c12 100%);
+            color: #2c3e50;
+            border: none;
+            padding: 18px;
+            width: 100%;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(243, 156, 18, 0.4);
+        }
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(243, 156, 18, 0.6);
+        }
+        .disclaimer {
+            font-size: 12px;
+            color: rgba(255,255,255,0.6);
+            text-align: center;
+            margin-top: 25px;
+            line-height: 1.5;
+        }
+        .urgency-badge {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sales-card">
+            <div class="header">
+                <h1>100% FREE VIDEO COURSE REVEALS...</h1>
+            </div>
+            
+            <div class="content">
+                <div class="urgency-badge">LIMITED TIME ACCESS</div>
+                
+                <h2>How To Generate Over <span style="color:#f1c40f">7 Figures</span> Sending Simple Emails</h2>
+                
+                <div class="benefit-box">
+                    <div class="benefit-title">High-Open-Rate Subject Line Vault</div>
+                    <div class="benefit-desc">Get immediate access to our proven 60%+ open rate subject lines that top marketers use daily</div>
+                </div>
+                
+                <form method="post" action="https://www.sendsteed.com/subscribe/">
+                    <div class="form-group">
+                        <input class="form-input" name="e110385" required type="email" placeholder="Enter your best email...">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-input" name="n110385" required type="text" placeholder="Your first name">
+                    </div>
+                    <input type="hidden" name="lllid" value="110385">
+                    <input type="hidden" name="lluid" value="sandyarta">
+                    <input type="hidden" name="source" value="sendingsimpleemailslandingpage">
+                    <button class="submit-btn" type="submit">GET INSTANT ACCESS →</button>
+                </form>
+                
+                <p class="disclaimer">Your information is 100% secure. We hate spam as much as you do. By registering, you agree to receive our exclusive marketing content. You can unsubscribe anytime with one click.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
